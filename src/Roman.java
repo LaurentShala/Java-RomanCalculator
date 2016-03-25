@@ -20,7 +20,7 @@ public class Roman {
 	// Methods
 	// Converts a number to Roman numerals
 	public String convertToRoman() {
-		for (int x = 0; x < number; x++){
+		for (int x = 0; x <= number; x++){
 			if (number - 1000 >= 0){
 				number -= 1000;
 				romanNumeral += "M";
